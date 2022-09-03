@@ -1,0 +1,94 @@
+{
+   "frames": {
+      "Big_Enemy_Right_0": {
+         "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 57,
+            "h": 57
+         },
+         "rotated": false,
+         "trimmed": false,
+         "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 57,
+            "h": 57
+         },
+         "sourceSize": {
+            "w": 57,
+            "h": 57
+         }
+      },
+      "Big_Enemy_Right_1": {
+         "frame": {
+            "x": 0,
+            "y": 58,
+            "w": 57,
+            "h": 57
+         },
+         "rotated": false,
+         "trimmed": false,
+         "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 57,
+            "h": 57
+         },
+         "sourceSize": {
+            "w": 57,
+            "h": 57
+         }
+      },
+      "Big_Enemy_Left_0": {
+         "frame": {
+            "x": 58,
+            "y": 0,
+            "w": 57,
+            "h": 57
+         },
+         "rotated": false,
+         "trimmed": false,
+         "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 57,
+            "h": 57
+         },
+         "sourceSize": {
+            "w": 57,
+            "h": 57
+         }
+      },
+      "Big_Enemy_Left_1": {
+         "frame": {
+            "x": 58,
+            "y": 58,
+            "w": 57,
+            "h": 57
+         },
+         "rotated": false,
+         "trimmed": false,
+         "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 57,
+            "h": 57
+         },
+         "sourceSize": {
+            "w": 57,
+            "h": 57
+         }
+      }
+   },
+   "meta": {
+      "app": "https://www.leshylabs.com/apps/sstool/",
+      "version": "Leshy SpriteSheet Tool v0.8.4",
+      "image": "bigEnemySheet.png",
+      "size": {
+         "w": 115,
+         "h": 115
+      },
+      "scale": 1
+   }
+}

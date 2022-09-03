@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="10" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="25">
+ <editorsettings>
+  <export target="hubLevel.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="hub_spritesheet" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="30" columns="5">
+  <image source="hub_spritesheet_extruded.png" trans="ff00ff" width="170" height="204"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="2" name="Background" width="10" height="11">
+  <data encoding="csv">
+5,3,3,5,3,3,5,3,3,5,
+5,5,5,5,5,5,5,5,5,5,
+5,3,3,5,3,3,5,3,3,5,
+5,3,3,5,3,3,5,3,3,5,
+5,5,5,5,5,5,5,5,5,5,
+5,3,3,5,3,3,5,3,3,5,
+5,3,3,5,3,3,5,3,3,5,
+5,5,5,5,5,5,5,5,5,5,
+5,3,3,5,3,3,5,3,3,5,
+5,3,3,5,3,3,5,3,3,5,
+5,5,5,5,5,5,5,5,5,5
+</data>
+ </layer>
+ <layer id="1" name="Collision" width="10" height="11">
+  <data encoding="csv">
+4,13,13,26,0,0,25,13,13,9,
+17,2,2,20,0,0,15,2,2,17,
+17,0,0,8,0,0,12,0,0,17,
+1,0,0,0,0,0,0,0,0,1,
+11,12,0,0,0,0,0,0,12,11,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+27,6,0,0,0,0,0,0,7,27,
+17,0,0,0,0,0,0,0,0,17,
+17,0,0,12,0,0,12,0,0,17,
+19,14,14,14,14,14,14,14,14,21
+</data>
+ </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="19" name="labDoor" gid="10" x="0" y="192" width="32" height="32"/>
+  <object id="20" name="labDoor" gid="10" x="0" y="224" width="32" height="32"/>
+  <object id="21" name="computerDoor" gid="10" x="128" y="32" width="32" height="32"/>
+  <object id="22" name="computerDoor" gid="10" x="160" y="32" width="32" height="32"/>
+  <object id="23" name="libraryDoor" gid="10" x="288" y="192" width="32" height="32"/>
+  <object id="24" name="libraryDoor" gid="10" x="288" y="224" width="32" height="32"/>
+ </objectgroup>
+</map>

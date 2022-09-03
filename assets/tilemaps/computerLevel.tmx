@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="55">
+ <editorsettings>
+  <export target="computerLevel.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="computer_lab_spritesheet" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="30" columns="5">
+  <image source="computer_lab_spritesheet_extruded.png" trans="ff00ff" width="170" height="204"/>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="4" name="Background" width="20" height="21">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="1" name="Collision" width="20" height="21">
+  <data encoding="csv">
+14,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,19,
+18,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,18,
+18,0,0,0,6,4,4,4,4,4,4,4,4,4,4,3,0,0,0,18,
+18,0,0,0,7,2,2,2,2,2,2,2,2,2,2,20,0,0,0,18,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,
+18,0,0,6,4,4,4,4,3,0,0,6,4,4,4,4,3,0,0,18,
+18,0,0,7,2,2,2,2,20,0,0,7,2,2,2,2,20,0,0,18,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,
+18,26,3,0,0,6,3,0,0,6,3,0,0,6,3,0,0,6,27,18,
+18,25,12,0,0,11,12,0,0,11,12,0,0,11,12,0,0,11,28,18,
+18,25,12,0,0,11,12,0,0,11,12,0,0,11,12,0,0,11,28,18,
+18,7,20,0,0,7,20,0,0,7,20,0,0,7,20,0,0,7,20,18,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,
+18,0,0,6,4,4,4,4,3,0,0,6,4,4,4,4,3,0,0,18,
+18,0,0,7,2,2,2,2,20,0,0,7,2,2,2,2,20,0,0,18,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,
+24,22,22,22,22,22,22,22,8,0,0,13,22,22,22,22,22,22,22,5
+</data>
+ </layer>
+ <objectgroup id="6" name="Objects">
+  <object id="6" name="phantom" x="32" y="480">
+   <properties>
+    <property name="point1" type="object" value="18"/>
+    <property name="point2" type="object" value="19"/>
+    <property name="point3" type="object" value="23"/>
+    <property name="point4" type="object" value="22"/>
+    <property name="point5" type="object" value="43"/>
+    <property name="point6" type="object" value="44"/>
+    <property name="point7" type="object" value="45"/>
+    <property name="point8" type="object" value="46"/>
+    <property name="point9" type="object" value="47"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="7" name="phantom" x="32" y="512">
+   <properties>
+    <property name="point1" type="object" value="12"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="8" name="phantom" x="576" y="320">
+   <properties>
+    <property name="point1" type="object" value="26"/>
+    <property name="point2" type="object" value="28"/>
+    <property name="point3" type="object" value="32"/>
+    <property name="point4" type="object" value="30"/>
+    <property name="point5" type="object" value="48"/>
+    <property name="point6" type="object" value="49"/>
+    <property name="point7" type="object" value="50"/>
+    <property name="point8" type="object" value="51"/>
+    <property name="point9" type="object" value="52"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="phantom" x="576" y="192">
+   <properties>
+    <property name="point1" type="object" value="35"/>
+    <property name="point2" type="object" value="36"/>
+    <property name="point3" type="object" value="39"/>
+    <property name="point4" type="object" value="9"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="11" name="phantom" x="32" y="192">
+   <properties>
+    <property name="point1" type="object" value="38"/>
+    <property name="point2" type="object" value="37"/>
+    <property name="point3" type="object" value="34"/>
+    <property name="point4" type="object" value="11"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="12" x="576" y="512">
+   <point/>
+  </object>
+  <object id="18" x="96" y="480">
+   <point/>
+  </object>
+  <object id="19" x="96" y="320">
+   <point/>
+  </object>
+  <object id="22" x="224" y="480">
+   <point/>
+  </object>
+  <object id="23" x="224" y="320">
+   <point/>
+  </object>
+  <object id="26" x="512" y="320">
+   <point/>
+  </object>
+  <object id="28" x="512" y="480">
+   <point/>
+  </object>
+  <object id="30" x="384" y="320">
+   <point/>
+  </object>
+  <object id="32" x="384" y="480">
+   <point/>
+  </object>
+  <object id="34" x="288" y="192">
+   <point/>
+  </object>
+  <object id="35" x="320" y="192">
+   <point/>
+  </object>
+  <object id="36" x="320" y="288">
+   <point/>
+  </object>
+  <object id="37" x="288" y="288">
+   <point/>
+  </object>
+  <object id="38" x="32" y="288">
+   <point/>
+  </object>
+  <object id="39" x="576" y="288">
+   <point/>
+  </object>
+  <object id="41" name="page" x="64" y="128" width="32" height="32"/>
+  <object id="42" name="bigPhantom" x="64" y="-128">
+   <point/>
+  </object>
+  <object id="43" x="352" y="480">
+   <point/>
+  </object>
+  <object id="44" x="352" y="320">
+   <point/>
+  </object>
+  <object id="45" x="480" y="320">
+   <point/>
+  </object>
+  <object id="46" x="480" y="480">
+   <point/>
+  </object>
+  <object id="47" x="576" y="480">
+   <point/>
+  </object>
+  <object id="48" x="256" y="320">
+   <point/>
+  </object>
+  <object id="49" x="256" y="480">
+   <point/>
+  </object>
+  <object id="50" x="128" y="480">
+   <point/>
+  </object>
+  <object id="51" x="128" y="320">
+   <point/>
+  </object>
+  <object id="52" x="32" y="320">
+   <point/>
+  </object>
+  <object id="53" name="door" gid="21" x="288" y="672" width="32" height="32"/>
+  <object id="54" name="door" gid="21" x="320" y="672" width="32" height="32"/>
+ </objectgroup>
+</map>

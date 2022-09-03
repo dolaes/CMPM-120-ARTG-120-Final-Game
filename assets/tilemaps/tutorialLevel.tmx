@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="14" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="16">
+ <editorsettings>
+  <export target="tutorialLevel.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="hub_spritesheet" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="30" columns="5">
+  <image source="hub_spritesheet_extruded.png" trans="ff00ff" width="170" height="204"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Background" width="14" height="9">
+  <data encoding="csv">
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+3,5,3,3,5,3,3,5,3,3,5,3,3,5,
+3,5,3,3,5,3,3,5,3,3,5,3,3,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+3,5,3,3,5,3,3,5,3,3,5,3,3,5,
+3,5,3,3,5,3,3,5,3,3,5,3,3,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+3,5,3,3,5,3,3,5,3,3,5,3,3,5,
+3,5,3,3,5,3,3,5,3,3,5,3,3,5
+</data>
+ </layer>
+ <layer id="2" name="Collision" width="14" height="9">
+  <data encoding="csv">
+4,13,13,13,13,13,13,13,13,13,13,13,13,9,
+17,2,2,2,2,2,2,2,2,2,2,2,2,17,
+17,0,0,0,0,0,0,0,0,0,10,0,0,17,
+17,0,0,0,0,0,0,0,0,0,10,0,0,17,
+0,0,0,0,12,12,12,12,12,12,12,0,0,17,
+0,0,0,0,0,0,0,0,0,0,0,0,0,17,
+17,0,0,0,10,0,10,0,10,0,10,0,0,17,
+17,0,0,0,12,0,12,0,12,0,12,0,0,17,
+19,14,14,14,14,14,14,14,14,14,14,14,14,21
+</data>
+ </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="4" name="phantom" x="384" y="192">
+   <properties>
+    <property name="point1" type="object" value="5"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" x="96" y="192">
+   <point/>
+  </object>
+  <object id="11" name="bigPhantom" x="576" y="160">
+   <point/>
+  </object>
+  <object id="12" name="page" x="384" y="96">
+   <point/>
+  </object>
+  <object id="13" x="288" y="96">
+   <point/>
+  </object>
+  <object id="14" name="door" gid="10" x="0" y="160" width="32" height="32"/>
+  <object id="15" name="door" gid="10" x="0" y="192" width="32" height="32"/>
+ </objectgroup>
+</map>

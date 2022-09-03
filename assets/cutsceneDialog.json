@@ -1,0 +1,53 @@
+[
+    {
+        "speaker": "Gary",
+        "name": "Gary",
+        "dialog": "Hey! Who turned out the light?! Damn! Right before finals too.",
+        "newSpeaker": "true"
+    },
+    {
+        "speaker": "Virgil",
+        "name": "???",
+        "dialog": "Quiet, my child. Be not afraid. I am Virgil.",
+        "newSpeaker": "true"
+    },
+    {
+        "speaker": "Virgil",
+        "name": "Virgil",
+        "dialog": "A student here has made a dire mistake. The Book of the Dead, the Necronomicon, has been left unsealed!"
+    },
+    {
+        "speaker": "Virgil",
+        "name": "Virgil",
+        "dialog": "Demons have lept from its pages and are rampaging throughout the school. Luckily, they are contained within the university for now, but we don't have much time."
+    },
+    {
+        "speaker": "Gary",
+        "name": "Gary",
+        "dialog": "WE! How can I even help?! I'm just a student here.",
+        "newSpeaker": "true"
+    },
+    {
+        "speaker": "Virgil",
+        "name": "Virgil",
+        "dialog": "Well, nobody else is still here at this hour! SO I DON'T REALLY HAVE A CHOICE, DO I?!",
+        "newSpeaker": "true"
+    },
+    {
+        "speaker": "Virgil",
+        "name": "Virgil",
+        "dialog": "Excuse me... Ahem. Dearest Gary. The demons have ripped the ritual pages from the Necronomicon, and hidden them throughout the school."
+    },
+    {
+        "speaker": "lantern_virgil",
+        "name": "Virgil",
+        "dialog": "Take this holy lantern to light your path through the darkness. Use its light to outsmart those dreadful demons, find the missing ritual pages to send those bastards back to Hell.",
+        "newSpeaker": "true"
+    },
+    {
+        "speaker": "lantern_gary",
+        "name": "Gary",
+        "dialog": "*sigh* Fine, I guess.",
+        "newSpeaker": "true"
+    }
+]
